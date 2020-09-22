@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="imagenToolbar">50dp</dimen>
+    <dimen name="tituloApp">30sp</dimen>
+    <dimen name="margenToolbar">30dp</dimen>
+    <dimen name="paddingLista">30dp</dimen>
+    <dimen name="letraTituloView">30sp</dimen>
+    <dimen name="letraDescripcionView">20sp</dimen>
+</resources>
