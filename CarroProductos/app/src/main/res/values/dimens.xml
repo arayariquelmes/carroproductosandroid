@@ -6,4 +6,6 @@
     <dimen name="paddingLista">30dp</dimen>
     <dimen name="letraTituloView">30sp</dimen>
     <dimen name="letraDescripcionView">20sp</dimen>
+    <dimen name="minHeightTextArea">200dp</dimen>
+    <dimen name="tamanioImagenFlotante">100dp</dimen>
 </resources>

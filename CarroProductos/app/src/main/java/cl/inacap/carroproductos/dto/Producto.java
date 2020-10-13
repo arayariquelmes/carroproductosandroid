@@ -4,10 +4,19 @@ import java.io.Serializable;
 
 public class Producto implements Serializable {
 
+    private int codigo;
     private int valor;
     private String nombre;
     private String foto;
     private String descripcion;
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
 
     public String getDescripcion() {
         return descripcion;

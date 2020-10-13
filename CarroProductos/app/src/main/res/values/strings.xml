@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">CarroProductos</string>
     <string name="tituloApp">Shopping</string>
+    <string name="labelNombre">Nombre</string>
+    <string name="labelValor">Precio</string>
+    <string name="labelDesc">Descripción</string>
+    <string name="guardarBtnLabel">Guardar</string>
+    <string name="labelUrl">Foto</string>
 </resources>

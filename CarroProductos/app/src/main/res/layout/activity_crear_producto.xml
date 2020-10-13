@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CrearProductoActivity">
+
+    <include layout="@layout/toolbar"></include>
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="@string/labelNombre"
+                android:textSize="@dimen/tituloApp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+            <EditText
+                android:layout_marginTop="@dimen/margenToolbar"
+                android:layout_width="match_parent"
+                android:id="@+id/nombreProdTxt"
+                android:layout_height="wrap_content">
+            </EditText>
+            <TextView
+                android:text="@string/labelValor"
+                android:textSize="@dimen/tituloApp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+            <EditText
+                android:layout_marginTop="@dimen/margenToolbar"
+                android:layout_width="match_parent"
+                android:inputType="numberDecimal"
+                android:id="@+id/precioProdTxt"
+                android:layout_height="wrap_content">
+            </EditText>
+            <TextView
+                android:text="@string/labelDesc"
+                android:textSize="@dimen/tituloApp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+            <EditText
+                android:layout_marginTop="@dimen/margenToolbar"
+                android:layout_width="match_parent"
+                android:inputType="textMultiLine"
+                android:id="@+id/descProdTxt"
+                android:layout_height="wrap_content"
+                android:minHeight="@dimen/minHeightTextArea">
+            </EditText>
+            <TextView
+                android:text="@string/labelUrl"
+                android:textSize="@dimen/tituloApp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+            <EditText
+                android:layout_marginTop="@dimen/margenToolbar"
+                android:layout_width="match_parent"
+                android:inputType="textUri"
+                android:id="@+id/fotoProdTxt"
+                android:layout_height="wrap_content">
+            </EditText>
+            <Button
+                android:id="@+id/guardarProdBtn"
+                android:text="@string/guardarBtnLabel"
+                android:layout_width="match_parent"
+                android:background="@color/colorAccent"
+                android:textStyle="bold"
+                android:textSize="@dimen/tituloApp"
+                android:padding="@dimen/tituloApp"
+                android:layout_height="wrap_content">
+
+            </Button>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
